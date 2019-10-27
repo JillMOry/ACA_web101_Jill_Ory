@@ -2,10 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(http://s1.picswalls.com/wallpapers/2017/12/11/nature-backgrounds_123026774_313.jpg);
     background-repeat: no-repeat;
-    background-size: 1679px 1139px;
+    background-size: 1750px 1150px;
     width: 100vw;
     height: 100vh;
   }
+
  
   .logo {
     width: 150x;
@@ -21,7 +22,7 @@ body {
  
   main {
     height: auto;
-    width: 100%;
+    width: 100;
     display: grid;
     grid-template-columns: 30% 40% 30%;
   }

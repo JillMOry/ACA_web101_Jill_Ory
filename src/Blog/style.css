@@ -1,0 +1,75 @@
+
+body {
+    background-color: whitesmoke
+}
+header {
+  padding: 40px;
+  text-align: center;
+  background: whitesmoke;
+  color: darkslategrey;
+  font-size: 12px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav > a:first-child:hover {
+  color: black;
+}
+
+a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+article:nth-child(even) {
+    border: inset pink 3px;
+    margin: 1% 10%;
+}
+
+article:nth-child(odd) {
+    border: outset deeppink 3px;
+    border-width: 5px 7px;
+    background: lightgray;
+    margin: 1% 10%;
+}
+
+p {
+    text-align: center;
+    text-decoration: underline;    
+    color: darkslategrey;
+    font-size: larger    
+}
+
+
+h2 {
+    text-align: justify;
+    color: grey;
+    font-size: medium;
+}
+
+article:hover {
+    border: solid darkgrey 6px
+}
+
+h2:hover:first-letter {
+    font-size: xx-large;
+    color: deeppink;
+}
+.has-border{
+  border: 2px solid black;
+  font-size: larger;
+  color: black !important
+  
+}
