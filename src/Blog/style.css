@@ -2,12 +2,11 @@
 body {
     background-color: whitesmoke
 }
-header {
-  padding: 40px;
+header>h1 {
+  color: deeppink;
+  padding: 3%;
   text-align: center;
-  background: whitesmoke;
-  color: darkslategrey;
-  font-size: 12px;
+  font-size: 30px;
 }
 
 nav {
@@ -52,7 +51,10 @@ p {
     font-size: larger    
 }
 
-
+h1{
+  text-align: center;
+  color: darkgrey;
+}
 h2 {
     text-align: justify;
     color: grey;
@@ -71,5 +73,16 @@ h2:hover:first-letter {
   border: 2px solid black;
   font-size: larger;
   color: black !important
-  
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: darkgrey;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+span {
+  color: rebeccapurple;
 }
