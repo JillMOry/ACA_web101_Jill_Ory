@@ -104,3 +104,73 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+
+  @media (max-width: 720px){
+    .logo {
+      width: 100x;
+      height: 100px;
+      margin: .66% 2.3%;
+    }
+  }
+
+
+  @media (max-width: 540px){
+    .logo {
+      width: 75px;
+      height: 75px;
+      margin: .33% 1%;
+    }
+  }
+
+
+  @media (max-width: 720px){
+    nav > a {
+    font-size: 1rem;  
+    border-radius: 13rem;
+    padding: 3px;
+    }
+  }
+
+
+  @media (max-width: 540px){
+    nav > a {
+      font-size: .5rem;  
+      border-radius: 16.5rem;
+      padding: 2px;
+    }
+  }
+
+  @media (max-width: 720px){
+    .has-border {
+    font-size: 1rem;  
+    border-radius: 13rem;
+    background: transparent;
+    padding: 3.5px;
+
+    }
+  }
+
+  @media (max-width: 540px){
+      .has-border{
+      font-size: .5rem;  
+      border-radius: 16.5rem;
+      background: transparent;
+      padding: 2px;
+    }
+  }
+
+  @media (max-width: 720px){
+    #profile-pic {
+      width: 108px;
+      height: 142px;
+      border-radius: 35%;
+      margin: 5% auto;
+      grid-column: 2/3;
+  }
+
+
+  @media (max-width: 540px){
+    #profile-pic {
+     display: none;
+  }
+
