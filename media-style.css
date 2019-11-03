@@ -1,0 +1,202 @@
+
+
+@media (min-width: 1024px){
+    #profile-pic {
+    width: 255px;
+    height: 325px;
+    border-radius: 49%;
+    margin: 5% auto;
+    grid-column: 2/3;
+  }
+  h1 {
+    font-size: 1.8rem;  
+    color: lightcyan
+    }   
+  h2 {
+    font-size: 1.3rem;  
+    color: lightcyan;
+    }
+  button {
+    padding-bottom: 2rem;
+  }
+}
+/*
+@media (max-width: 960px){
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+  }
+  nav > a {
+    font-size: 1rem;  
+    float: left;
+    width: auto
+    }
+  .has-border {
+    font-size: 1rem;  
+    color: dodgerblue; 
+    float: 50%;
+    width: auto
+    }  
+  #profile-pic {
+    width: 128px;
+    height: 165px;
+    border-radius: 15%;
+    margin: 5% auto;
+    grid-column: 2/3;
+    }    
+  .h1 {
+    font-size: 2.1rem;  
+    color: whitesmoke;
+    }
+  .h2 {
+    font-size: 2rem;  
+    text-align: center;
+    color: whitesmoke;
+    }
+  button {
+    margin: 30% auto;
+    height: 25%;
+    font-size: 1.5rem;
+    }
+  }
+    
+@media (max-width: 960px), screen and (orientation: landscape){
+    .h2 {
+    font-size: 1.8rem;  
+    text-align: center;
+    color: whitesmoke;
+    }
+  }
+*/
+
+
+@media (max-width: 768px){
+  h1 {
+    color: lightcyan;
+  }
+  h2 {
+    color: cornflowerblue;
+    text-align: center;
+  }
+  button{
+    font-size: 1.3rem; 
+    letter-spacing: normal;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 720px){
+  .logo {
+    width: 125x;
+    height: 125px;
+    margin: .50% 1%;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    padding-right: 20;
+  }
+  nav > a {
+    font-size: .6rem;  
+    float: left;
+    width: auto;
+    margin: .4rem;
+    padding: 15%;
+    }
+  .has-border {
+    font-size: .6rem;  
+    color: dodgerblue; 
+    float: left;
+    margin: .4rem;
+    width: auto;
+    padding: 15%;
+    }
+  #profile-pic {
+    width: 100px;
+    height: 120px;
+    border-radius: 15%;
+    margin: 5% auto;
+    grid-column: 2/3;
+    }
+  h1 {
+    font-size: 1.8rem;  
+    color: whitesmoke;
+    }   
+  h2 {
+    font-size: 1.3rem;  
+    color: whitesmoke;
+    text-align: center;
+    }
+  button {
+    font-size: 1.3rem; 
+    letter-spacing: normal;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 832px) and (orientation: landscape){
+  #profile-pic {
+    display: none;
+  }
+  button{
+    letter-spacing: normal;
+    padding-bottom: 2rem;
+    color: rgb(133, 173, 247);
+  }
+}
+
+
+@media (max-width: 540 px) and (min-width: 719){
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+  }
+  .logo {
+    width: 75px;
+    height: 75px;
+    margin: .3% .5%;
+  }
+  nav > a {
+    font-size: .58rem;  
+    border-radius: 6.5rem;
+    padding: 2px;
+  }
+  .has-border{
+    font-size: .58rem; 
+    color: dodgerblue;  
+    border-radius: 6.5rem;
+    padding: 2px;
+  }
+  #profile-pic {
+    display: none;
+  }
+  h1 {
+    font-size: 1rem;  
+    color: whitesmoke;
+    }
+  h2 {
+    font-size: 1.3rem; 
+    text-align: center;
+  }   
+  button{
+    font-size: 1.3rem; 
+    letter-spacing: normal;
+    padding-bottom: 1rem;
+    }   
+}
+
+@media (max-width: 540px), screen and (orientation: landscape){
+  h1 {
+    font-size: 1.4rem;  
+    border-bottom: 2px solid darkblue
+  }
+  h2 {
+    font-size: 1.2rem; 
+    text-align: center; 
+    color: darkblue
+    }
+}
+
