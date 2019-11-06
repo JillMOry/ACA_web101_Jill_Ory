@@ -24,6 +24,7 @@ h1 {
 p {
   font-size: 1rem;
   font-display: bold;
+  line-height: .5;
 }
 
 .row {
@@ -56,6 +57,7 @@ p {
 .s1 > div {
   background-color: #FAEBD7;
   margin: .3rem;
+  width: 796;
   text-align: left;
   line-height: 1.4;
   font-size: 1rem;
@@ -81,17 +83,9 @@ p {
   line-height: 2.2rem;
 }
 
-.b1 > p {
-  line-height: .5;
-}
-
-.b2 > p {
-  line-height: .5;
-}
-
 .footer {
   padding: 1rem;
-  width: 95%;
+  width: 100%;
   color: darkgray;
   text-align: center;
 }
