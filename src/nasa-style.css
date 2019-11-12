@@ -2,13 +2,12 @@ body {
   font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   width: 850px; 
   margin: 0% auto;
+  
 }
 
 .space-pic {
   height: 450px;
   background-image: url(./milky-way-67504_640.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   color: whitesmoke;
 }

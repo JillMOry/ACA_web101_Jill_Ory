@@ -1,0 +1,45 @@
+@media (max-width: 450px) {
+  .space-pic {
+    height: 320px;
+    overflow: auto;
+  }
+
+  div {
+    flex-direction: column;
+    height: 400px;
+    padding: 2%;
+  }
+
+  div > article {
+    width: 300px;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: .70rem;
+  }
+
+  address{
+    font-size: .75rem;
+  }
+
+  form {
+    font-size: .7rem;
+  }
+
+  #comments {
+    width: 290px;
+    height: 50px;
+  }
+
+  button {
+    padding: none;
+    font-size: .7rem; 
+  }
+}
+
+@media (min-width: 451) and (max-width: 768px) {
+  .space-pic {
+    height: 400px;
+  }
+}
