@@ -1,35 +1,36 @@
+/* I really don't like how I did the .nasa.text
+but I'm in too deep now to change that */
+
+
 @media (max-width: 450px) {
   .space-pic {
-    height: 320px;
-    overflow: auto;
+    height: 300px;
   }
-
+  
+.nasa-text {
+  font-size: 1rem;
+  top: 10%;
+  left: 10%;
+  transform: translate(150%, -15%);
+}
   div {
-    flex-direction: column;
-    height: 400px;
-    padding: 2%;
+    display: block;
+    height: 100vh;
   }
 
   div > article {
-    width: 300px;
-    font-size: 1rem;
+    margin: 0% 2% 2% 2%;  
+    font-size: .9rem;
+    padding-top: 1%;
   }
 
-  p {
-    font-size: .70rem;
-  }
-
-  address{
-    font-size: .75rem;
+  address {
+    font-size: .2rem;
   }
 
   form {
+    display: inline-block;
     font-size: .7rem;
-  }
-
-  #comments {
-    width: 290px;
-    height: 50px;
   }
 
   button {
@@ -38,8 +39,99 @@
   }
 }
 
-@media (min-width: 451) and (max-width: 768px) {
+
+@media (max-width: 720px)   {
   .space-pic {
-    height: 400px;
+    height: 100px;
+  }
+
+  .nasa-text {
+    font-size: 1rem;
+    margin: 10% auto 0%;
+  }  
+  
+  div {
+    justify-content: left;
+  }
+
+  div > article {
+    width: 200px;
+    font-size: .9rem;
+    padding: 1%;
+  }
+
+  p {
+    font-size: .8rem;
+  }
+
+  address {
+    font-size: .8rem; 
+  }
+
+  form {
+    font-size: .6rem;
+  }
+
+  button {
+    padding: none;
+    font-size: .7rem; 
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 960px) {
+  body {
+    width: 764px;
+  }
+
+  .space-pic {
+    height: 240px;
+  }
+
+  .nasa-text {
+    font-size: 2rem;
+    top: 20%;
+    left: 20%;
+    transform: translate(140%, -15%);
+  }
+
+    div > article {
+      width: 242px;
+      font-size: 1rem;
+      padding: 1%;
+    }
+  
+    p {
+      font-size: .9rem;
+    }
+  
+    address {
+      font-size: .9rem; 
+    }
+  
+    form {
+      font-size: .6rem;
+    }
+  
+    button {
+      padding: none;
+      font-size: .7rem; 
+    }
+  }
+
+
+@media (max-width: 1024px) and (min-width: 960px), screen and (orientation: portrait) {
+  .space-pic {
+    height: 340px;
+  }
+
+  .nasa-text {
+    font-size: 2rem;
+    top: 12%;
+    left: 10%;
+    transform: translate(140%, -15%);
+  }  
+
+  form {
+    font-size: .9rem;
   }
 }
