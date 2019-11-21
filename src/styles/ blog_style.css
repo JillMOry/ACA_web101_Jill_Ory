@@ -3,10 +3,11 @@ body {
     background-color: whitesmoke
 }
 header>h1 {
-  color: deeppink;
+  color: darkgrey;
   padding: 3%;
   text-align: center;
   font-size: 30px;
+  text-decoration: underline;
 }
 
 nav {
@@ -33,7 +34,7 @@ a {
 }
 
 article:nth-child(even) {
-    border: inset pink 3px;
+    border: inset #9C27B0 4px;
     margin: 1% 10%;
 }
 
