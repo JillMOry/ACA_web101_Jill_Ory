@@ -1,1 +1,173 @@
+body {
+  font-family: 'Parisienne', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Dancing Script', cursive;
+  background-color: #DEE1E8;
+}
 
+#intro {
+  overflow: hidden;
+}
+
+.nav {
+  display: block;
+  height: 200px;
+  background-color: #8693AB;
+}
+
+.nav h1 {
+  font-size: 4.5rem;
+  text-align: center;
+  color: #BDD4E7;
+  font-weight: bold;
+  width: 25%;
+  margin: 0 5%;
+  padding: 0 40px;
+  background-color: #4A515E;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+}
+
+.bar {
+  display: inline-block;
+  margin: auto 50%;
+  position: relative;
+  top: 85px;
+  left: 90px;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  background-color: #BDD4E7;
+  border-radius: 10%; 
+}
+
+.statement {
+  margin: 10% auto;
+  border: 5px solid #AAB9CF;
+  background-color: #F9FBFC;
+  width: 1200px;
+  overflow: hidden;
+  box-shadow: 5px 7px 4px #4A515E;
+}
+
+.opening {
+  width: 450px;
+  height: 410px;
+  float: right;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: auto;
+  color: #4A515E;
+  padding: 10% 20% 10% 5%;
+}
+
+.services {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  width: 1200px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0 3%;
+  width: 275px;
+}
+
+h2 {
+text-align: center;
+}
+
+.ending {
+  display: flex;
+
+  width: 1200px;
+  margin: 10% auto;
+}
+
+.lhbox {
+  border: 5px solid #AAB9CF;
+  width: 590px;
+}
+.ending p {
+  padding: 0 5%;
+}
+
+.ending  h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #BDD4E7;
+  font-weight: bold;
+  width: 40%;
+  margin: 0 10%;
+  padding: 0 25px;
+  background-color: #8693AB;
+  position: relative;
+  top: -35px;
+  overflow: hidden;
+}
+
+#endtext {
+ padding: auto 5%;
+}
+.rhbox  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 590px;
+}
+
+
+.rhbox > div {
+  border: 5px solid #AAB9CF;
+  margin: 5%;
+}
+
+.mission h2 {
+  width: 50%;
+}
+
+h3 {
+font-size: 1.5rem;
+float: right;
+position: relative;
+left: -70px;
+}
+
+
+
+.listpic{
+  height: 229px;
+  width: 218px;
+  border: 5px solid #AAB9CF;
+  box-shadow: 5px 7px 4px #4A515E;
+}
+
+.lower_pic {
+  height: 100px;
+  width: 100px;
+  border: 5px solid #AAB9CF;
+  position: relative;
+  left: 10px;
+  box-shadow: 5px 7px 4px #4A515E;
+}
+
+footer {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #8693AB;  
+  
+
+
+}
