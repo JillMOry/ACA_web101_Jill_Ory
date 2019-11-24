@@ -1,0 +1,90 @@
+@media (max-width: 823px) {
+.banner {
+ width: 98%;
+ height: 60px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 60px;
+}
+
+.slogan {
+  top: 15%;
+  left: 0;
+  font-size: 1rem;
+}
+
+  .title, .title1, #blog1  {
+    display: none;
+}
+
+  article, .entry {
+    font-size: .9rem;
+  }
+
+  .entry {
+    height: 100px;
+    margin-left: 7px;
+  }
+
+  #button{
+    font-size: 90%;
+    background-color: #EDEAEB;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 732px) and (orientation: portrait) {
+  .banner {
+    width: 98%;
+    height: 80px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    line-height: 25px;
+    margin-top: 2%;
+    width: 40%;
+  }
+  
+  .slogan {
+   top: 40%;
+   left: 0%;
+   font-size: .9rem;
+  }
+
+  .projects {
+    display: inline;
+  }
+
+  .unit {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: black;
+  }
+
+  article, .entry {
+    font-size: .9rem;
+  }
+
+  #button{
+    font-size: .6rem;
+    background-color: #EDEAEB;
+    width: 3rem;
+    }
+
+  #name {
+    font-size: .9rem;
+    padding: 2px;
+    }
+
+  }
+  @media screen and (max-width: 450px) and (orientation: portrait) {
+   
+  .slogan {
+    top: 40%;
+    left: 0%;
+   font-size: .8rem;
+    }
+  }
