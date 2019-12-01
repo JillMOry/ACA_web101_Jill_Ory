@@ -1,85 +1,87 @@
 body {
-  font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  width: 850px; 
-  margin: 0% auto;
+	font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+	width: 850px;
+	margin: 0% auto;
 }
 
 .space-pic {
-  height: 450px;
-  background-image: url(../images/milky-way-67504_640.jpg);
-  background-size: cover;
-  color: whitesmoke;
+	height: 450px;
+	background-image: url(../images/milky-way-67504_640.jpg);
+	background-repeat: round;
+	color: whitesmoke;
 }
 
 .nasa-text {
-  margin: 0%;
-  font-size: 3rem;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -60%);
-  color: whitesmoke;
-  background-color: transparent;
+	margin: 0%;
+	font-size: 7rem;
+	font-weight: bold;
+	position: absolute;
+	top: 17%;
+	left: 41%;
+	color: whitesmoke;
+	background-color: transparent;
 }
 
-div {
-  display: flex;
-  height: 324px;
-  background-color: lightgrey;
-  justify-content: space-around;
-  align-items: stretch;
-  color: #444444;
+.lower {
+	display: flex;
+	height: 324px;
+	overflow: hidden;
+	background-color: lightgrey;
+	justify-content: space-around;
+	align-items: stretch;
+	color: #444444;
 }
 
-div > article {
-  width: 270px;
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-top: 1%;
+section {
+	width: 270px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-top: 1%;
+	padding: 0 2% 2%;
 }
 
 p {
-  font-size: .9rem;
-  font-weight: normal;
-  margin: 5% 7% 0% 0%;
-  text-align: left;
+	font-size: 0.9rem;
+	font-weight: normal;
+	margin: 5% 7% 0% 0%;
+	text-align: left;
 }
 
-address{
-  display: block;
-  font-size: .9rem;
-  font-weight: normal;
-  margin: 5% 7% 0% 0%;
-  text-align: left;
+address {
+	display: block;
+	font-size: 0.9rem;
+	font-weight: normal;
+	margin: 5% 7% 0% 0%;
+	text-align: left;
 }
 
 form {
-  margin-top: 5%;  
-  font-size: 1rem;
-  font-weight: normal;
+	margin-top: 1%;
+	font-size: 1rem;
+	font-weight: normal;
 }
 
 #name {
-  margin-bottom: 4%;
-  border: 1px;
-  font-size: 1rem;
-  padding: 5px;
-  width: 220px;
+	margin-bottom: 4%;
+	border: 1px;
+	font-size: 1rem;
+	padding: 5px;
+	width: 220px;
 }
 
 #comments {
-  margin-top: 2%;
-  border: 1px;
-  font-size: 1rem;
-  padding: 5px;
-  width: 220px;
-  height: 100px ;
-  }
+	margin-top: 2%;
+	border: 1px;
+	font-size: 1rem;
+	padding: 5px;
+	width: 220px;
+	height: 100px;
+}
 
 button {
-  margin-top: 1%;
-  padding: .5rem;
-  font-size: 1rem;
-  color: #DBDBDB;
-  background-color:#717171;
+	margin-top: 1%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	color: #dbdbdb;
+	background-color: #717171;
 }
