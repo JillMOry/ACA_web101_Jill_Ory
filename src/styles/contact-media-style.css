@@ -1,0 +1,125 @@
+@media (max-width: 823px) {
+	body,
+	header,
+	.top,
+	#note {
+		width: 100vw;
+		height: initial;
+		overflow: initial;
+	}
+
+	.canvas {
+		height: auto;
+		width: 100vw;
+		margin: 0 auto;
+		overflow-x: hidden;
+	}
+
+	#tm,
+	#tmno {
+		display: none;
+	}
+
+	.focus {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 1.2rem;
+	}
+
+	input,
+	#note {
+		height: 12%;
+		width: 500px;
+	}
+	form {
+		width: 80%;
+	}
+	#media {
+		display: flex;
+	}
+	#note {
+		margin-bottom: 3%;
+	}
+}
+
+@media (max-width: 768px) {
+	form {
+		display: inline;
+	}
+
+	#media {
+		display: flex;
+		margin-left: 5%;
+	}
+
+	input,
+	#note {
+		height: 12%;
+		width: 400px;
+	}
+}
+
+@media (max-width: 540px), screen and (orientation: portrait) {
+	body,
+	header,
+	.top,
+	#note {
+		width: 100vw;
+		height: initial;
+		overflow: initial;
+	}
+
+	.teaser {
+		width: 90%;
+		border-bottom: 2px solid black;
+
+		width: 80vw;
+		margin: 0 auto;
+		padding: 5% 0;
+	}
+
+	#mid {
+		border-bottom: none;
+		border-top: 2px solid black;
+		width: 80vw;
+		margin: 0 auto;
+		padding: 5% 0;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	.top {
+		display: inline;
+	}
+
+	#line {
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		border-left: none;
+		border-right: none;
+		width: 80vw;
+		margin: 0 auto;
+		padding: 5% 0;
+	}
+
+	hr {
+		display: none;
+	}
+
+	input,
+	#note {
+		width: 250px;
+	}
+
+	.send {
+		margin-bottom: 5%;
+	}
+
+	.teaser > p > u {
+		text-decoration: none;
+	}
+}
