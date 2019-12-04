@@ -1,0 +1,122 @@
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	height: 100vh;
+}
+
+header {
+	background-color: black;
+	color: #2390ba;
+	overflow: hidden;
+	height: auto;
+	width: auto;
+}
+.banner2 {
+	display: none;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: lighter;
+}
+
+h1 {
+	text-align: center;
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	font-weight: lighter;
+	border: 2px solid black;
+}
+
+.how,
+.exper,
+.skills {
+	border: 3px solid black;
+	align-items: center;
+	width: 33%;
+	height: auto;
+}
+.how {
+	background-color: #272930;
+	color: #2390ba;
+}
+
+.exper {
+	background-color: #616368;
+	color: #2cb4e8;
+}
+
+.skills {
+	background-color: #e0e0e0;
+	color: #2cb4e8;
+}
+
+.how .bio .exper {
+	width: 70%;
+	margin: 10% auto;
+	align-items: stretch;
+}
+
+p,
+h2,
+h3 {
+	margin: 8%;
+}
+
+img {
+	width: 50%;
+	margin: 0 auto;
+}
+
+figure,
+.germany,
+.sea {
+	text-align: center;
+}
+
+.sea img {
+	height: 210px;
+	width: 210px;
+	margin-top: 10%;
+	border: 3px solid black;
+}
+
+.germany img {
+	margin-top: 10%;
+	width: 55%;
+}
+
+img {
+	border: 2px solid whitesmoke;
+}
+
+.footer1 {
+	position: absolute;
+	bottom: 0%;
+	height: 2rem;
+	width: 100%;
+	font-size: 1.2rem;
+	color: #2390ba;
+}
+.footer2 {
+	display: none;
+}
+nav {
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+}
+
+a {
+	color: #272930;
+	padding: 5px;
+	margin: 4px;
+	font-size: 1rem;
+}
+button {
+	background-color: #2390ba;
+}
