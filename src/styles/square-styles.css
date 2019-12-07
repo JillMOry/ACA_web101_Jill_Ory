@@ -1,0 +1,67 @@
+.action-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1200px;
+
+	margin: 3% auto 0;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	margin: 10px 0;
+}
+
+.box:nth-child(odd) {
+	transition: 3s ease-out;
+}
+.action-box:hover .box:nth-child(odd) {
+	transform: translateX(250px) rotate(360deg) scale(2);
+}
+
+.box:nth-child(even) {
+	transition: 3s ease-in;
+}
+.action-box:hover .box:nth-child(even) {
+	transform: scale(0.5) translateX(-1000px) rotate(-360deg);
+}
+
+.b1 {
+	background-color: red;
+}
+.b2 {
+	background-color: yellow;
+}
+
+.b3 {
+	background-color: green;
+}
+.b4 {
+	background-color: blue;
+}
+.b5 {
+	background-color: orange;
+}
+.b6 {
+	background-color: purple;
+}
+.b7 {
+	background-color: goldenrod;
+}
+.b8 {
+	background-color: darkorange;
+}
+.b9 {
+	background-color: darkblue;
+}
+.b10 {
+	background-color: darkgreen;
+}
+.b11 {
+	background-color: darkmagenta;
+}
+
+.b12 {
+	background-color: darkred;
+}
