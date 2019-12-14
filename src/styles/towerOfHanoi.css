@@ -1,0 +1,45 @@
+.tower {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	margin: 1% 0;
+	width: 300px;
+	height: 50px;
+	border: 1px solid grey;
+}
+
+.piece {
+	width: 40px;
+	height: 40px;
+	border: 1px solid grey;
+}
+
+.red {
+	background-color: #ff7473;
+}
+.blue {
+	background-color: #948bff;
+}
+
+.orange {
+	background-color: #ffc55e;
+}
+.green {
+	background-color: #5cae5d;
+}
+
+.rd {
+	background-color: red;
+}
+
+.bl {
+	background-color: blue;
+}
+
+.orng {
+	background-color: orange;
+}
+
+.grn {
+	background-color: green;
+}
