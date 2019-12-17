@@ -1,5 +1,5 @@
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 button {
@@ -20,5 +20,5 @@ button {
 	border: 3px solid black;
 	text-align: center;
 	font-size: 8rem;
-	color: black;
+	color: red;
 }
