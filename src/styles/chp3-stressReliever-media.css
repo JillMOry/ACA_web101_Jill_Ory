@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+	html {
+		overflow: hidden;
+	}
+
+	.box {
+		display: flex;
+		display: column;
+		width: 280px;
+		height: 515px;
+		border: 1px solid blue;
+	}
+
+	button {
+		top: 75%;
+		left: 43px;
+		width: 200px;
+		height: 2rem;
+	}
+
+	#blu,
+	#grn,
+	#purp,
+	#orng,
+	#red,
+	#rd {
+		height: 125px;
+		width: 80px;
+		top: 40%;
+		left: 135px;
+	}
+
+	#grn {
+		top: 10%;
+		left: 100px;
+	}
+
+	#purp {
+		top: 50%;
+		left: 30px;
+	}
+	#orng {
+		top: 20%;
+		left: 190px;
+	}
+
+	#red {
+		top: 15%;
+		left: 40px;
+	}
+
+	#rd {
+		top: 30%;
+		left: 70px;
+	}
+}
+
+@media (max-width: 736px), screen and(orientation: landscape) {
+	.box {
+		width: 515px;
+		height: 280px;
+	}
+	button {
+		top: 77%;
+		left: 275px;
+		width: 200px;
+		height: 2rem;
+		border: 1px solid red;
+	}
+
+	#blu,
+	#grn,
+	#purp,
+	#orng,
+	#red,
+	#rd {
+		height: 125px;
+		width: 80px;
+		top: 40%;
+		left: 225px;
+	}
+
+	#grn {
+		top: 10%;
+		left: 140px;
+	}
+
+	#purp {
+		top: 50%;
+		left: 93px;
+	}
+	#orng {
+		top: 10%;
+		left: 300px;
+	}
+
+	#red {
+		top: 15%;
+		left: 30px;
+	}
+
+	#rd {
+		top: 30%;
+		left: 400px;
+	}
+}
