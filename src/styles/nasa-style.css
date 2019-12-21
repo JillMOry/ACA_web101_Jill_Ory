@@ -9,20 +9,21 @@ body {
 	background-image: url(../images/milky-way-67504_640.jpg);
 	background-size: cover;
 	color: whitesmoke;
+	position: relative;
 }
 
 .nasa-text {
 	margin: 0%;
-	font-size: 3rem;
+	font-size: 4rem;
 	position: absolute;
-	top: 30%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -60%);
+	transform: translate(-50%, -50%);
 	color: whitesmoke;
 	background-color: transparent;
 }
 
-div {
+.lower {
 	display: flex;
 	height: 324px;
 	background-color: lightgrey;
@@ -30,12 +31,8 @@ div {
 	align-items: stretch;
 	color: #444444;
 }
-
-div > article {
-	width: 270px;
-	font-size: 1.25rem;
-	font-weight: bold;
-	margin-top: 1%;
+.blocks {
+	width: 275px;
 }
 
 p {
