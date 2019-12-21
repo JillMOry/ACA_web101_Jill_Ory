@@ -7,37 +7,62 @@ body {
 .space-pic {
 	height: 450px;
 	background-image: url(../images/milky-way-67504_640.jpg);
+<<<<<<< HEAD
 	background-repeat: round;
+=======
+	background-size: cover;
+>>>>>>> master
 	color: whitesmoke;
 }
 
 .nasa-text {
 	margin: 0%;
+<<<<<<< HEAD
 	font-size: 7rem;
 	font-weight: bold;
 	position: absolute;
 	top: 17%;
 	left: 41%;
+=======
+	font-size: 3rem;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+>>>>>>> master
 	color: whitesmoke;
 	background-color: transparent;
 }
 
+<<<<<<< HEAD
 .lower {
 	display: flex;
 	height: 324px;
 	overflow: hidden;
+=======
+div {
+	display: flex;
+	height: 324px;
+>>>>>>> master
 	background-color: lightgrey;
 	justify-content: space-around;
 	align-items: stretch;
 	color: #444444;
 }
 
+<<<<<<< HEAD
 section {
+=======
+div > article {
+>>>>>>> master
 	width: 270px;
 	font-size: 1.25rem;
 	font-weight: bold;
 	margin-top: 1%;
+<<<<<<< HEAD
 	padding: 0 2% 2%;
+=======
+>>>>>>> master
 }
 
 p {
@@ -56,7 +81,11 @@ address {
 }
 
 form {
+<<<<<<< HEAD
 	margin-top: 1%;
+=======
+	margin-top: 5%;
+>>>>>>> master
 	font-size: 1rem;
 	font-weight: normal;
 }
