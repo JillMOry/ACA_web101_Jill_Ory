@@ -1,83 +1,91 @@
-body{
-  font-family: fantasy, cursive, Georgia;
-  background-image: url(../images/sea-water-ocean-abstract-52514.jpg);
-  background-size: 1800px 1200px;
-  margin-top: 1rem;
+body {
+	font-family: fantasy, cursive, Georgia;
+	background-image: url(../images/sea-water-ocean-abstract-52514.jpg);
+	background-size: 1800px 1200px;
+	margin-top: 1rem;
 }
 
 .widget {
-  display: grid;
-  grid-template-columns: 25% 15% 30% 30%;
-  grid-template-rows: 20% 20% 60%;
-  grid-gap: 10px; 
-  text-align: center;
-  font-size: 2rem;
-  color: #FAACC3;
-  width: 100vw;
-  height: 100vh;
+	display: grid;
+	grid-template-columns: 25% 15% 30% 30%;
+	grid-template-rows: 20% 20% 60%;
+	grid-gap: 10px;
+	text-align: center;
+	font-size: 2rem;
+	color: #faacc3;
+	width: 100vw;
+	height: 100vh;
 }
 
 .calendar {
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
-  display: grid;
-  grid-template-columns: repeat (7, 1fr);
-  grid-template-rows: repeat (5, 1fr);
-  font-size: 1rem;
-  margin: 0 1rem 0 1rem;
-
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+	display: grid;
+	grid-template-columns: repeat (7, 1fr);
+	grid-template-rows: repeat (5, 1fr);
+	font-size: 1rem;
+	margin: 0 1rem 0 1rem;
 }
 
 .month {
-  grid-column: 1 / 8;
-  font-size: 2rem;
+	grid-column: 1 / 8;
+	font-size: 2rem;
 }
 
 .day {
-  background-color: slategrey;
-  
+	background-color: slategrey;
 }
 .item2 {
-  grid-column: 2 / 4;
-  grid-row: 1 / 2;
+	display: flex;
+	flex-direction: column;
+	grid-column: 2 / 4;
+	grid-row: 1 / 2;
 }
 
 .item4 {
-  grid-column: 2 / 5;
-  grid-row: 2 / 3;
-  font-size: 8rem;
+	grid-column: 2 / 5;
+	grid-row: 2 / 3;
+	font-size: 8rem;
 }
 
 .item5 {
-  grid-column: 3 / 5;
-  grid-row: 3/ 4;
-  color: #D66B8B;
-  text-shadow: 2px 2px black;
-  font-size: 4rem;
-  font-weight: bolder;
-  text-align: left;
-  margin-top: 3%;
+	grid-column: 3 / 5;
+	grid-row: 3/ 4;
+	color: #d66b8b;
+	text-shadow: 2px 2px black;
+	font-size: 4rem;
+	font-weight: bolder;
+	text-align: left;
+	margin-top: 3%;
 }
 .item6 {
-background-color:#CD8DA0;
-width: 4rem;
-height: 2rem;
-border-radius: 50%;
-margin: 1rem;
-}  
+	background-color: #cd8da0;
+	width: 4rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin: 1rem;
+}
 
 .item5 > li {
-  font-size: 20rem;
+	font-size: 20rem;
 }
 
 .item8 {
-  height: 320;
-  margin: 30% 10% 0 1%; 
+	height: 320;
+	margin: 30% 10% 0 1%;
 }
 
 .list {
-  text-align: left;
-  font-size: 2rem;
-  color: #D66B8B;
-  text-decoration-line: underline;
+	text-align: left;
+	font-size: 2rem;
+	color: #d66b8b;
+	text-decoration-line: underline;
+}
+span {
+	font-size: 1rem;
+}
+button {
+	background-color: #cd8da0;
+	width: 16%;
+	margin: 0 auto 3%;
 }
