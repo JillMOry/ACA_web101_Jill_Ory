@@ -39,6 +39,13 @@ function showTime() {
 }
 showTime();
 
+type = "text/javascript";
+var myCalendar = new JEC("myCalendar");
+
+type = "text/javascript";
+var myCalendar = new JEC("myCalendar");
+myCalendar.showCalendar();
+
 // below will render an alert re: geolocation
 // if (navigator.geolocation) {
 // 	navigator.geolocation.getCurrentPosition(handle_success, handle_errors);
